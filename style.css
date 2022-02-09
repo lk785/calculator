@@ -1,0 +1,75 @@
+body {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #b29f94);
+}
+.text {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+input {
+  line-height: 2em;
+  width: 7.87em;
+  text-align: right;
+  margin-bottom: 0;
+  margin-right: 20%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(114, 103, 103);
+  color: white;
+
+  border: none;
+  border-color: black;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.line__1 {
+  display: inline-flex;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.button {
+  width: 5.18em;
+  height: 3em;
+  font-size: larger;
+  border: none;
+}
+.number {
+  background-color: grey;
+}
+.stndard_operator {
+  background-color: rgb(238, 235, 229);
+}
+#equal {
+  background-color: rgb(40, 113, 207);
+}
+#cut {
+  background-color: rgb(221, 87, 87);
+}
+.normal__operator {
+  background-color: rgb(212, 159, 159);
+}
+.calculator {
+  position: fixed;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  margin-left: 25%;
+  color: #5e90b1;
+  font-size: 40px;
+  font-family: "Cookie", cursive;
+}
+p {
+  margin-left: 80%;
+  align-items: flex-end;
+  color: #5e90b1;
+  font-size: 10px;
+  font-family: "Cookie", cursive;
+}
+.heading {
+  display: inline-flex;
+
+  color: #5e90b1;
+  font-size: 10px;
+  font-family: "Cookie", cursive;
+}

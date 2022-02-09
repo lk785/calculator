@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="text">
+          <h3>calculator</h3>
+          <input
+            style="font-size: 50px"
+            class="input"
+            type="text"
+            placeholder="0"
+            width="500"
+            height="50"
+          />
+        </div>
+        <div class="line__1">
+          <!-- <button class="button" id="underoot">&#8730;</button> -->
+          <button class="button normal__operator" id="whole_bracket">()</button>
+          <button class="button normal__operator" id="open_bracket">(</button>
+          <button class="button normal__operator" id="close_bracket">)</button>
+          <button class="button" id="cut">&#8339;</button>
+        </div>
+        <div class="line__1">
+          <button class="button normal__operator" id="reciprocal">1/x</button>
+          <button class="button normal__operator" id="negate">+/-</button>
+          <button class="button normal__operator" id="percent">%</button>
+          <button class="button" id="c">c</button>
+        </div>
+        <div class="line__1">
+          <button class="button number" id="seven">7</button>
+          <button class="button number" id="eight">8</button>
+          <button class="button number" id="nine">9</button>
+          <button class="button stndard_operator" id="multiply">*</button>
+        </div>
+        <div class="line__1">
+          <button class="button number" id="four">4</button>
+          <button class="button number" id="five">5</button>
+          <button class="button number" id="six">6</button>
+          <button class="button stndard_operator" id="minus">-</button>
+        </div>
+        <div class="line__1">
+          <button class="button number" id="one">1</button>
+          <button class="button number" id="two">2</button>
+          <button class="button number" id="three">3</button>
+          <button class="button stndard_operator" id="plus">+</button>
+        </div>
+        <div class="line__1">
+          <button class="button normal__operator" id="dot">.</button>
+          <button class="button number" id="zero">0</button>
+          <button class="button stndard_operator" id="divide">/</button>
+          <button class="button" id="equal">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
